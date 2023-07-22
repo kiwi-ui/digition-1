@@ -1,5 +1,6 @@
-import { useState } from 'react';
 import { GrFormClose } from 'react-icons/gr';
+import qr from '../../assets/img/qr-1.webp';
+import './style.css';
 
 const GiftModal = ({isModalShown, toggleModal}: any) => {
     
@@ -12,7 +13,7 @@ const GiftModal = ({isModalShown, toggleModal}: any) => {
                 </div>
 
                 <div className="text-center p-4">
-                    <img src="../assets/img/qr-1.webp" className="h-100" alt="qr code" />
+                    <img src={ qr } className="h-100" alt="qr code" />
                     <div className="my-2">
                         <p className="fs-3 fw-bold m-0">Juliet Basori</p>
                         <p>091204789789 / Bank Mandiri</p>
