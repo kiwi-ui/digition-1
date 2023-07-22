@@ -40,7 +40,7 @@ const EventDetails = () => {
 
     return (
         <section id="date" className="border-box bg-color-secondary d-flex justify-content-center h-100 my-4">
-            <div className="schedule border-box bg-color-primary h-100 my-5">
+            <div className="schedule border-box bg-color-primary h-100 my-5" style={{backgroundImage: '../../assets/img/cover.jpg', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
                 <div className="cover-schedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column"
                     style={{height: '60vh'}}>
                     <p className="m-0 text-color-primary fs-1 fw-semibold z-10">Waktu dan Tempat</p>
