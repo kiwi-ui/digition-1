@@ -1,8 +1,8 @@
-import './style.module.css';
+import style from './style.module.css';
 
 const Footer = () => {
     return (
-        <footer className="bg-footer h-100 position-relative" style={{ height: '75vh' }}>
+        <footer className={`${style.bgFooter} h-100 position-relative`} style={{ height: '75vh' }}>
             <div className="container text-white d-flex flex-column text-center gap-3 py-5 h-100 position-relative">
                 <p className="fs-1 m-0 fw-bold color-primary">Terimakasih Atas Perhatiannya</p>
                 <p className="fs-2 m-0">Keluarga Besar</p>
