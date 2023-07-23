@@ -51,7 +51,7 @@ const EventDetails = () => {
                     </div>
                 </div>
 
-                <div className="countdown d-flex align-items-center mt-5 flex-column">
+                <div className={`${style.bgColorPrimary} d-flex align-items-center mt-5 flex-column`}>
                     <div className="d-flex flex-column align-items-center container">
                         <p className="fs-1 fw-semibold">Resepsi</p>
 
