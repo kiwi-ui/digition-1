@@ -10,8 +10,8 @@ const Cover = ({hide, setHide}: any) => {
     }
     
     return (
-        <section className={`${style.bgCover} vh-100 position-relative text-white text d-flex justify-content-center align-items-center`}>
-            <div className={`rounded-5 ${style.wCover} h-100 z-10`}>
+        <section className={`${style.bgCover} vh-100 text-white`}>
+            <div className={`rounded-5 ${style.wCover} position-relative z-10`}>
                 <div className={`${style.bgBlack50} text-center py-5 rounded-4`}>
                     <img className='rounded-circle py-3' style={{maxHeight: "40vh"}} src={ profileImage } alt="pengantin" />
                     <p className='m-0'>UNDANGAN PERNIKAHAN</p>
@@ -23,7 +23,7 @@ const Cover = ({hide, setHide}: any) => {
                         <h4 className={`mt-2 fw-bold mb-4 ${style.textColorPrimary}`}>{ name }</h4>
                     </div>
 
-                    <button onClick={ hideCover } className="rounded-4 px-3 py-1 position-relative start-50 translate-middle-x bg-button text-white border-0 d-flex flex-row align-items-center justify-content-center gap-2">
+                    <button onClick={ hideCover } className={ `${style.bgButton} rounded-4 px-3 py-2 position-relative start-50 translate-middle-x text-white border-0 d-flex flex-row align-items-center justify-content-center gap-2`}>
                         <BsEnvelopeHeart/>
                         <span className="text-white text-decoration-none fw-bold">Buka Undangan</span>
                     </button>
