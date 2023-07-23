@@ -38,7 +38,7 @@ const EventDetails = () => {
     }, [])
     
     return (
-        <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-4` }>
+        <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-4 ${style.z10}` }>
             <div className={` ${ style.schedule } border-box ${style.bgColorPrimary} h-100 my-5`} style={{backgroundImage: '../../assets/img/cover.jpg', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
                 <div className={` ${style.coverSchedule} d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column`} style={{height: '60vh'}}>
                     <p className={`m-0 text-color-primary fs-1 fw-semibold ${style.z10}`}>Waktu dan Tempat</p>
