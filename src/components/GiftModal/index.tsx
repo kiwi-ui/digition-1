@@ -1,6 +1,6 @@
 import { GrFormClose } from 'react-icons/gr';
 import qr from '../../assets/img/qr-1.webp';
-import style from './style.module.css';
+import style from './gift.module.css';
 
 const GiftModal = ({isModalShown, toggleModal}: any) => {
     return (

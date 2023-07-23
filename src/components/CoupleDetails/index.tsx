@@ -1,4 +1,4 @@
-import style from './style.module.css';
+import style from './couple.module.css';
 import groom from '../../assets/img/groom.jpg';
 import bride from '../../assets/img/bride.jpg';
 import {BsInstagram} from 'react-icons/bs';
