@@ -5,8 +5,8 @@ import {BsInstagram} from 'react-icons/bs';
 
 const CoupleDetails = () => {
     return (
-        <div className="text-center py-5" id="main">
-            <div className={`container ${style.bgColorPrimary}`}>
+        <div className={ `${style.abca} text-center py-5` } id="main">
+            <div className="container">
                 <div className="">
                     <p className="fs-1 fw-semibold">Assalamualaikum Warahmatullahi Wabarakatuh</p>
                     <p className="fs-4">Dengan rahmat ridho Allah Subhanahu Wa Ta'ala, kami menyelenggarakan acara resepsi pernikahan putra-putri kami:</p>
