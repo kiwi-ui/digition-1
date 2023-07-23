@@ -5,7 +5,7 @@ import style from './gift.module.css';
 const GiftModal = ({isModalShown, toggleModal}: any) => {
     return (
         <div className={ `${ isModalShown ? 'd-flex' : 'd-none' } vh-100 w-100 position-fixed top-0 justify-content-center align-items-center`} style={{zIndex: 10, background:"rgb(0,0,0,0.5)"}}>
-            <div className="w-50 top-50">
+            <div className={`${style.bgColorPrimary} w-50 top-50`}>
                 <div className={ `${style.bgColorPrimary} rounded-5` }>
                     <div className="px-2 d-flex justify-content-end">
                         <button className="bg-transparent border-0 fs-2" type="button" onClick={ toggleModal }><GrFormClose /></button>
