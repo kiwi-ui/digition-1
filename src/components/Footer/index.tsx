@@ -1,4 +1,5 @@
-import './style.css';
+import './style.module.css';
+
 const Footer = () => {
     return (
         <footer className="bg-footer h-100 position-relative" style={{ height: '75vh' }}>
