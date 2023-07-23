@@ -5,7 +5,7 @@ import styles from './style.module.css';
 
 const CoupleDetails = () => {
     return (
-        <div className={ `py-5 text-center ${styles.bgColorPrimary}` } id="main">
+        <div className={ `py-5 text-center bg-color-primary ${styles.bgColorPrimary}` } id="main">
             <div className="container">
                 <div className="">
                     <p className="fs-1 fw-semibold">Assalamualaikum Warahmatullahi Wabarakatuh</p>
