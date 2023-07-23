@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
@@ -11,8 +10,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <BrowserRouter>
-            <Routes>
-                <Route path="/:name" element={<App />} />
-            </Routes>
-        </BrowserRouter>
+      <Routes>
+        <Route path="/:name" element={<App />} />
+      </Routes>
+    </BrowserRouter>
 );
