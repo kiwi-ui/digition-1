@@ -10,7 +10,7 @@ const Sidebar = () => {
 	const hideSideBar = () => { setIsSideBarHided(e => !e) };
 
   	return (
-		<div className={`${isSideBarHided ? '-start-60' : 'start-0'} position-fixed d-flex flex-row bg-text-primary z-10 position-absolute navbar-transition top-50 translate-middle-y`}>
+		<div className={`${isSideBarHided ? '-start-60' : 'start-0'} position-fixed z10 d-flex flex-row bg-text-primary z-10 position-absolute navbar-transition top-50 translate-middle-y`}>
 				<ul className="navbar-nav flex-column align-items-center px-3 py-4 gap-4 d-flex text-white">  
 					<li className="nav-item">
 						<a className='nav-link active' aria-current="page" type="button" href="#headline"><BiHomeAlt2 className="fs-5"/></a>

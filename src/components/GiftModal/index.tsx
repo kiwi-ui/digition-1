@@ -19,9 +19,9 @@ const GiftModal = ({isModalShown, toggleModal}: any) => {
                         </div>
                         <div className="d-flex justify-content-center gap-3">
                             <button className="py-2 px-4 position-relative rounded-2 border-0 text-white fw-semibold" style={{ background: "#2b2b2b" }}>Copy</button>
-                            <a href="https://wa.me/082336420166?text=I%20confirm%20that%20I%20have%20sent%20the%20money%20transfer%20for%20the%20wedding%20gift." target="_blank" rel='noreferrer'>
-                                <button className="py-2 px-4 position-relative rounded-2 border-0 text-white fw-semibold">Konfirmasi</button>
-                            </a>
+                            {/* <a href="https://wa.me/082336420166?text=I%20confirm%20that%20I%20have%20sent%20the%20money%20transfer%20for%20the%20wedding%20gift." target="_blank" rel='noreferrer'> */}
+                                {/* <button className="py-2 px-4 position-relative rounded-2 border-0 text-white fw-semibold">Konfirmasi</button> */}
+                            {/* </a> */}
                             </div>
                     </div>
                 </div>

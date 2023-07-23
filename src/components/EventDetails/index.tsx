@@ -44,7 +44,7 @@ const EventDetails = () => {
                     <p className={`m-0 text-color-primary fs-1 fw-semibold ${style.z10}`}>Waktu dan Tempat</p>
                     <p className={`m-0 text-color-primary fs-2 fw-semibold ${style.z10}`}>Pernikahan</p>
                     
-                    <div className="mb-5 mt-2 z-10">
+                    <div className="mb-5 mt-2 z-10 text-white">
                         <p className="m-0">30 Februari 2001</p>
                         <p className="m-0">Hall Unira Dome</p>
                         <p className="m-0">Jalan Dipenogoro, Pamekasan, Jawa Timur</p>
