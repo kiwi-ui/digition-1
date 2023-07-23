@@ -1,10 +1,10 @@
-.bg-headline {
+.bgHeadline {
     background-image: url('../../assets/img/home-cover.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 };
-.bg-headline::before {
+.bgHeadline::before {
     content: "";
     position: absolute;
     top: 0;
