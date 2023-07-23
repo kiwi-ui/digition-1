@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-
+import { useState } from 'react';
+import style from './style.module.css';
 interface formData {
     name: string,
     harapan: string
@@ -54,9 +54,9 @@ const Wish = () => {
     }
 
     return (
-        <section id="wish" className="wish bg-color-secondary vh-100 d-flex align-items-center border-box">
-            <div className="container w-75 bg-color-primary rounded-4 shadow-lg d-flex flex-column justify-content-center">
-                <div id="wish" className="wish py-5 container">
+        <section className="wish vh-100 d-flex align-items-center border-box">
+            <div className={ `container w-75 ${style.bgColorPrimary} rounded-4 shadow-lg d-flex flex-column justify-content-center` }>
+                <div id="wish" className=" py-5 container">
                     <p className="fs-1 fw-semibold m-0 text-center">Harapan</p>
                     <p className="fs-5 text-center mb-3">Suatu kehormatan untuk kami menerima harapan baik dari saudara/saudari</p>
 

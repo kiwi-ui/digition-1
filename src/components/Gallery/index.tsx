@@ -6,7 +6,7 @@ import g4 from '../../assets/img/g-4.webp';
 import g5 from '../../assets/img/g-5.webp';
 import g6 from '../../assets/img/g-6.webp';
 import ModalImage from './ModalImage';
-import './style.css';
+import style from './style.module.css';
 
 const Gallery = () => {
     const galleryImages = [{img: g1},{img: g2},{img: g3},{img: g4},{img: g5},{img: g6}]
@@ -20,7 +20,7 @@ const Gallery = () => {
     return (
         <>
             <ModalImage toggle={ isPhotoClicked } setToggle={ setisPhotoClicked } clickedPhoto={ clickedPhoto }/>
-            <section id="gallery" className="gallery bg-color-primary mt-4 position-relative">
+            <section id="gallery" className={ `gallery ${style.bgColorPrimary} mt-4 position-relative` }>
                 <div className="container py-5">
                     <div className="text-center w-75 position-relative" style={{transform: "translateX(-50%)", right: "-50%"}}>
                         <p className="fs-2 fw-bold m-0">Gallery</p>
