@@ -7,7 +7,9 @@ function App() {
     
     return (
         <>
-            { hideCover ? <Main /> : <Cover hide= { hideCover } setHide= { setHideCover }/> }
+             
+            <Main /> 
+            {/* <Cover hide= { hideCover } setHide= { setHideCover }/> */}
         </>
     )
 }

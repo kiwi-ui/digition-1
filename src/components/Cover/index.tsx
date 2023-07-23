@@ -4,6 +4,7 @@ import style from'./style.module.css';
 import { BsEnvelopeHeart } from 'react-icons/bs';
 
 const Cover = ({hide, setHide}: any) => {
+    
     const { name }: any = useParams();
     const hideCover = () => {
         return setHide(!hide);

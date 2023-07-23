@@ -1,10 +1,11 @@
 import groom from '../../assets/img/groom.jpg';
 import bride from '../../assets/img/bride.jpg';
-import {BsInstagram} from 'react-icons/bs'
+import {BsInstagram} from 'react-icons/bs';
+import styles from './style.module.css';
 
 const CoupleDetails = () => {
     return (
-        <div className="py-5 text-center bg-color-primary" id="main">
+        <div className={ `py-5 text-center ${styles.bgColorPrimary}` } id="main">
             <div className="container">
                 <div className="">
                     <p className="fs-1 fw-semibold">Assalamualaikum Warahmatullahi Wabarakatuh</p>
