@@ -3,4 +3,7 @@
     box-sizing: border-box;
     font-family: 'Cormorant', serif;
 };
-body {background: white !important}
+body {
+    background: white !important;
+    color: white;
+}
