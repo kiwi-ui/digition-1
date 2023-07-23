@@ -4,6 +4,7 @@ import {BsInstagram} from 'react-icons/bs';
 import styles from './style.module.css';
 
 const CoupleDetails = () => {
+    console.log(styles)
     return (
         <div className={ `py-5 text-center  ${styles.bgColorPrimary}` } id="main">
             <div className="container">

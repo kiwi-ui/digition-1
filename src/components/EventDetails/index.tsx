@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {BsCalendarHeart, BsClock, BsPinMap} from 'react-icons/bs';
 import {FiMapPin} from "react-icons/fi"
-import './style.css';
+import style from './style.module.css';
 
 interface eventInterface  {
     days: null | number,
@@ -38,12 +38,11 @@ const EventDetails = () => {
     }, [])
     
     return (
-        <section id="date" className="border-box bg-color-secondary d-flex justify-content-center h-100 my-4">
-            <div className="schedule border-box bg-color-primary h-100 my-5" style={{backgroundImage: '../../assets/img/cover.jpg', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
-                <div className="cover-schedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column"
-                    style={{height: '60vh'}}>
-                    <p className="m-0 text-color-primary fs-1 fw-semibold z-10">Waktu dan Tempat</p>
-                    <p className="m-0 text-color-primary fs-2 fw-semibold z-10">Pernikahan</p>
+        <section id="date" className={ `border d-flex justify-content-center h-100 my-4` }>
+            <div className={` ${style.schedule} border-box ${style.bgColorPrimary} h-100 my-5`} style={{backgroundImage: '../../assets/img/cover.jpg', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+                <div className={` ${style.coverSchedule} d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column`} style={{height: '60vh'}}>
+                    <p className={`m-0 text-color-primary fs-1 fw-semibold ${style.z10}`}>Waktu dan Tempat</p>
+                    <p className={`m-0 text-color-primary fs-2 fw-semibold ${style.z10}`}>Pernikahan</p>
                     
                     <div className="mb-5 mt-2 z-10">
                         <p className="m-0">30 Februari 2001</p>
