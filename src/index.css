@@ -8,7 +8,7 @@ body {
     color: white;
 }
 .coverSchedule {
-    background-image: url("../../assets/img/bride.jpg");
+    background-image: url("./assets/img/bride.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
