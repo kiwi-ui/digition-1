@@ -54,7 +54,7 @@ const Wish = () => {
     }
 
     return (
-        <section className="wish d-flex align-items-center border-box" style={{ height: '35vh'}}>
+        <section className="wish d-flex align-items-center border-box my-5">
             <div className={ `container w-75 ${style.bgColorPrimary} rounded-4 shadow-lg d-flex flex-column justify-content-center` }>
                 <div id="wish" className=" py-5 container">
                     <p className="fs-1 fw-semibold m-0 text-center">Harapan</p>

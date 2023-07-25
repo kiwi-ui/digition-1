@@ -79,8 +79,8 @@ const EventDetails = () => {
                         </div>
                     </div>
 
-                    <p className="fs-1 m-0 mt-5">Hitung Mundur</p>
-                    <p className="fs-2 mb-2 fw-bold">Resepsi</p>
+                    <p className="fs-1 m-0 mt-3">Hitung Mundur</p>
+                    <p className="fs-2 fw-bold">Resepsi</p>
 
                     {!isEventOver ? 
                         <div className="d-flex flex-row mb-5 text-white border-box mt-2 w-100 justify-content-evenly container">

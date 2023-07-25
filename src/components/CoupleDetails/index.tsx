@@ -4,7 +4,7 @@ import {BsInstagram} from 'react-icons/bs';
 
 const CoupleDetails = () => {
     return (
-        <div className="text-center py-5" id="main" style={{background:"#f1d6ab"}}>
+        <div className="text-center py-5" id="main" style={{ background:"#f1d6ab" }}>
             <div className="container">
                 <div className="">
                     <p className="fs-1 fw-semibold">Assalamualaikum Warahmatullahi Wabarakatuh</p>

@@ -30,7 +30,7 @@ const Gallery = () => {
                     <div className="row">
                         {galleryImages.map((image, index) => 
                             (
-                                <div className="gallery-photos col-6 mb-1 p-1 position-relative" >
+                                <div key={index} className="gallery-photos col-6 mb-3 p-1 position-relative shadow-sm">
                                     <img className=" w-100" src={ image.img } alt='prewedding' onClick={ showImage } />
                                 </div> 
                             )
