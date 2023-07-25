@@ -39,12 +39,12 @@ const EventDetails = () => {
     
     return (
         <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-4 ${style.z10}` }>
-            <div className={` ${ style.schedule } ${style.schedule} border-box ${style.bgColorPrimary} h-100 my-5`} style={{backgroundImage: '../../assets/img/cover.jpg', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+            <div className={`${style.schedule} border-box ${style.bgColorPrimary} h-100 my-5`}>
                 <div className={` ${style.coverSchedule} d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '60vh'}}>
                     <p className={`m-0 ${style.txtColorPrimary} fs-1 fw-semibold ${style.z10}`}>Waktu dan Tempat</p>
                     <p className={`m-0 ${style.txtColorPrimary} fs-2 fw-semibold ${style.z10}`}>Pernikahan</p>
                     
-                    <div className="mb-5 mt-2 z-10 text-white">
+                    <div className={`mb-5 mt-2 ${style.z10} text-white`}>
                         <p className="m-0">30 Februari 2001</p>
                         <p className="m-0">Hall Unira Dome</p>
                         <p className="m-0">Jalan Dipenogoro, Pamekasan, Jawa Timur</p>
@@ -72,8 +72,7 @@ const EventDetails = () => {
                         </div>
 
                         <div className="d-flex justify-content-center">
-                            <button className="d-flex flex-row gap-3 align-items-center py-2 px-3 border-0 rounded-2"
-                                style={{backgroundColor: "#2b2b2b"}}>
+                            <button className="d-flex flex-row gap-3 align-items-center py-2 px-3 border-0 rounded-2" style={{backgroundColor: "#2b2b2b"}}>
                                 <FiMapPin className='text-white' />
                                 <p className="m-0 text-white">Lihat Peta</p>
                             </button>

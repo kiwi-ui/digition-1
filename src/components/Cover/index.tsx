@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import profileImage from '../../assets/img/g-1.webp';
-import style from'./style.module.css';
+import style from'./cover.module.css';
 import { BsEnvelopeHeart } from 'react-icons/bs';
 
 const Cover = ({hide, setHide}: any) => {
