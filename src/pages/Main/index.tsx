@@ -26,9 +26,9 @@ const Main = () => {
             <Wish />
             <GiftModal isModalShown={isModalShown} toggleModal={toggleModal}/>
             <Footer />
-            <div className="bg-toggle position-fixed p-2 text-center rounded-circle text-white end-0 me-3 mt-3 bottom-0">
-                <button className="d-flex align-items-center justify-items-center m-0 my-3 mx-1 position-relative bg-transparent rounded-circle py-1 border-0 " style={{ color: 'white' }} onClick={ toggleModal }>
-                    <ImGift className="fs-3 text-color-primary"/>
+            <div className="position-fixed p-2 text-center rounded-circle text-white end-0 me-3 mt-3 bottom-0">
+                <button className="d-flex align-items-center justify-items-center m-0 my-3 mx-1 position-relative bg-transparent rounded-circle p-1 border-2" style={{ color: '#E3B04B', borderColor: '#E3B04B', borderStyle: 'solid' }} onClick={ toggleModal }>
+                    <ImGift className="fs-5 text-color-primary"/>
                 </button>
             </div>
         </>
