@@ -26,9 +26,9 @@ const Sidebar = () => {
 				</li>
 			</ul>
 
-			<div className="position-absolute text-white start-100 top-50 translate-middle-y">
-				<BiSolidRightArrow className="text-color-primary fs-2" onClick={ hideSideBar }/>
-			</div>
+			<button className="bg-transparent border-0 position-absolute text-white start-100 top-50 translate-middle-y">
+				<BiSolidRightArrow className={`${style.textColorPrimary} fs-2`} onClick={ hideSideBar }/>
+			</button>
 		</div>
 	)
 }
