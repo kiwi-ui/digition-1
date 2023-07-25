@@ -12,7 +12,7 @@
     background-size: cover;
     height: 100vh;
 }
-/* .bgCover::before {
+.bgCover::before {
     content: "";
     position: absolute;
     top: 0;
@@ -21,7 +21,7 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index:0;
-} */
+}
 .bgBlack50 {background-color: rgba(0, 0, 0, 0.5);}
 .textColorPrimary { color: rgb(227, 176, 75); }
 .bgColorPrimary { background-color: #F1D6AB;}
