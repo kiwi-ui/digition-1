@@ -40,11 +40,11 @@ const EventDetails = () => {
     return (
         <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-4 z10` }>
             <div className={`schedule border-box bgColorPrimary h-100 my-5`}>
-                <div className={`coverSchedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '60vh',backgroundImage: "url('../../assets/img/bride.jpg')"}}>
-                    <p className={`m-0 txtColorPrimary fs-1 fw-semibold z10}`}>Waktu dan Tempat</p>
-                    <p className={`m-0 txtColorPrimary fs-2 fw-semibold z10}`}>Pernikahan</p>
+                <div className={`coverSchedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '60vh'}}>
+                    <p className={`m-0 txtColorPrimary fs-1 fw-semibold z10`}>Waktu dan Tempat</p>
+                    <p className={`m-0 txtColorPrimary fs-2 fw-semibold z10`}>Pernikahan</p>
                     
-                    <div className={`mb-5 mt-2 z10} text-white`}>
+                    <div className={`mb-5 mt-2 z10 text-white`}>
                         <p className="m-0">30 Februari 2001</p>
                         <p className="m-0">Hall Unira Dome</p>
                         <p className="m-0">Jalan Dipenogoro, Pamekasan, Jawa Timur</p>
@@ -65,7 +65,7 @@ const EventDetails = () => {
                                 <p className="m-0 fs-5">10.00 - 13.00 WIB</p>
                             </div>
                             <div className="d-flex flex-row align-items-center gap-3">
-                                <BsPinMap className='fs-3 fw-light'/>
+                                <BsPinMap className='fs-4 fw-light'/>
                                 <p className="m-0 fs-5">Jl. Jenderal Sudirman No.Kav. 1, Karet Tengsin, Kecamatan Tanah Abang, Kota
                                     Jakarta Pusat, DKI Jakarta 10220</p>
                             </div>

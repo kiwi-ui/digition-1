@@ -14,6 +14,6 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index:0;
 };
-.textColor {
-    color: rgb(227, 176, 75) !important
+.text {
+    color: #e3b04b !important;
 };
