@@ -55,7 +55,7 @@ const Wish = () => {
 
     return (
         <section className="wish d-flex align-items-center border-box my-5">
-            <div className={ `container w-75 ${style.bgColorPrimary} rounded-4 shadow-lg d-flex flex-column justify-content-center` }>
+            <div className={ `container ${style.bgColorPrimary} rounded-4 shadow-lg d-flex flex-column justify-content-center w-75` }>
                 <div id="wish" className=" py-5 container">
                     <p className="fs-1 fw-semibold m-0 text-center">Harapan</p>
                     <p className="fs-5 text-center mb-3">Suatu kehormatan untuk kami menerima harapan baik dari saudara/saudari</p>

@@ -24,14 +24,11 @@ body {
     z-index: 0;
 }
 .schedule {
-    width: 85%;
-    border-radius: 10rem 10rem 0 0;
+    width: 75%;
+    border-radius: 10rem 10rem 1rem 1rem;
+    min-height: 40vh;
 }
-/* @media (max-width: 575.98px) {
-    .schedule {
-        width: 85%;
-    }
-} */
+
 .z10{ z-index: 10;}
 .txtColorPrimary { color: #F1D6AB;}
 .bgColorPrimary { background-color: #F1D6AB;}
