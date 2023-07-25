@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {BsCalendarHeart, BsClock, BsPinMap} from 'react-icons/bs';
 import {FiMapPin} from "react-icons/fi"
-import style from './style.module.css';
+import '../../index.css';
 
 interface eventInterface  {
     days: null | number,
@@ -38,20 +38,20 @@ const EventDetails = () => {
     }, [])
     
     return (
-        <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-4 ${style.z10}` }>
-            <div className={`${style.schedule} border-box ${style.bgColorPrimary} h-100 my-5`}>
-                <div className={`  d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '60vh',backgroundImage: "url('../../assets/img/bride.jpg')"}}>
-                    <p className={`m-0 ${style.txtColorPrimary} fs-1 fw-semibold ${style.z10}`}>Waktu dan Tempat</p>
-                    <p className={`m-0 ${style.txtColorPrimary} fs-2 fw-semibold ${style.z10}`}>Pernikahan</p>
+        <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-4 z10` }>
+            <div className={`schedule border-box bgColorPrimary h-100 my-5`}>
+                <div className={`d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '60vh',backgroundImage: "url('../../assets/img/bride.jpg')"}}>
+                    <p className={`m-0 txtColorPrimary} fs-1 fw-semibold z10}`}>Waktu dan Tempat</p>
+                    <p className={`m-0 txtColorPrimary} fs-2 fw-semibold z10}`}>Pernikahan</p>
                     
-                    <div className={`mb-5 mt-2 ${style.z10} text-white`}>
+                    <div className={`mb-5 mt-2 z10} text-white`}>
                         <p className="m-0">30 Februari 2001</p>
                         <p className="m-0">Hall Unira Dome</p>
                         <p className="m-0">Jalan Dipenogoro, Pamekasan, Jawa Timur</p>
                     </div>
                 </div>
 
-                <div className={`${style.bgColorPrimary} d-flex align-items-center mt-5 flex-column`}>
+                <div className={`bgColorPrimary d-flex align-items-center mt-5 flex-column`}>
                     <div className="d-flex flex-column align-items-center container">
                         <p className="fs-1 fw-semibold">Resepsi</p>
 
