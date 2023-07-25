@@ -18,7 +18,7 @@ const Cover = ({hide, setHide}: any) => {
                     <h5 className='m-0'>UNDANGAN PERNIKAHAN</h5>
                     
                     <div className='d-flex flex-column gap-2'>
-                        <h1 className={`fw-bold ${style.textColorPrimary} m-2   `}>James & Humairoh</h1>
+                        <h1 className={`fw-bold ${style.textColorPrimary} m-2`}>Yusni & Anggara</h1>
                         <h5 className="m-0">Kepada yang terhormat</h5>
                         <h5 className="m-0">Bapak/Ibu/Saudara</h5>
                         <h1 className={`mt-2 fw-bold mb-4 ${style.textColorPrimary}`}>{ name }</h1>
