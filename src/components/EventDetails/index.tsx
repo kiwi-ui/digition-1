@@ -40,7 +40,7 @@ const EventDetails = () => {
     return (
         <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-4 z10` }>
             <div className={`schedule border-box bgColorPrimary h-100 my-5`}>
-                <div className={`coverSchedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '60vh'}}>
+                <div className={`coverSchedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '30vh'}}>
                     <p className={`m-0 txtColorPrimary fs-1 fw-semibold z10`}>Waktu dan Tempat</p>
                     <p className={`m-0 txtColorPrimary fs-2 fw-semibold z10`}>Pernikahan</p>
                     
