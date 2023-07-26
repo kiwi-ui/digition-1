@@ -40,14 +40,14 @@ const EventDetails = () => {
     return (
         <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-5 z10` }>
             <div className={`schedule border-box bgColorPrimary shadow-lg`}>
-                <div className={`coverSchedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '45vh'}}>
-                    <p className={`m-0 txtColorPrimary fs-1 fw-semibold z10`}>Waktu dan Tempat</p>
-                    <p className={`m-0 txtColorPrimary fs-2 fw-semibold z10`}>Pernikahan</p>
+                <div className={`coverSchedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '40  vh'}}>
+                    <p className={`m-0 txtColorPrimary fw-semibold z10`} style={{fontSize: '2.5rem'}}>Waktu dan Tempat</p>
+                    <p className={`m-0 txtColorPrimary fw-semibold z10`} style={{fontSize: '2rem'}}>Pernikahan</p>
                     
-                    <div className={`mb-5 mt-2 z10 text-white`}>
-                        <p className="m-0">30 Februari 2001</p>
-                        <p className="m-0">Hall Unira Dome</p>
-                        <p className="m-0">Jalan Dipenogoro, Pamekasan, Jawa Timur</p>
+                    <div className={`mb-3 mt-2 z10 text-white`}>
+                        <p className="m-0 fs-4">30 Februari 2001</p>
+                        <p className="m-0 fs-4">Hall Unira Dome</p>
+                        <p className="m-0 fs-4">Jalan Dipenogoro, Pamekasan, Jawa Timur</p>
                     </div>
                 </div>
 
@@ -58,15 +58,15 @@ const EventDetails = () => {
                         <div className="mx-4 mb-4" style={{borderTop :'0.3rem solid #2b2b2b'}}>
                             <div className="d-flex flex-row align-items-center gap-3 pt-3">
                                 <BsCalendarHeart/>
-                                <p className="m-0 fs-5">Minggu, 31 Februari 2025</p>
+                                <p className="m-0 fs-4">Minggu, 31 Februari 2025</p>
                             </div>
                             <div className="d-flex flex-row align-items-center gap-3">
                                 <BsClock />
-                                <p className="m-0 fs-5">10.00 - 13.00 WIB</p>
+                                <p className="m-0 fs-4">10.00 - 13.00 WIB</p>
                             </div>
                             <div className="d-flex flex-row align-items-center gap-3">
                                 <BsPinMap className='fs-4 fw-light'/>
-                                <p className="m-0 fs-5">Jl. Jenderal Sudirman No.Kav. 1, Karet Tengsin, Kecamatan Tanah Abang, Kota
+                                <p className="m-0 fs-4">Jl. Jenderal Sudirman No.Kav. 1, Karet Tengsin, Kecamatan Tanah Abang, Kota
                                     Jakarta Pusat, DKI Jakarta 10220</p>
                             </div>
                         </div>
@@ -79,11 +79,8 @@ const EventDetails = () => {
                         </div>
                     </div>
 
-                    <p className="fs-1 m-0 mt-3">Hitung Mundur</p>
-                    <p className="fs-2 fw-bold">Resepsi</p>
-
                     {!isEventOver ? 
-                        <div className="d-flex flex-row mb-5 text-white border-box mt-2 w-100 justify-content-evenly container">
+                        <div className="d-flex flex-row mb-5 text-white border-box my-5 w-100 justify-content-evenly container">
                             <div className="days text-center d-flex align-items-center flex-column p-3 rounded-2 shadow" style={{backgroundColor: "#2b2b2b", width: "20%"}}>
                                 <p className="fs-3 m-0">{event.days}</p>
                                 <p className="fs-5 m-0">Hari</p>

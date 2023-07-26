@@ -14,8 +14,8 @@ const Sidebar = () => {
 	const hideSideBar = () => { setIsSideBarHided(e => !e) };
 
   	return (
-		<div className={`${isSideBarHided ? style.start60 : 'start-0'}  position-fixed z10 d-flex flex-row position-absolute ${style.navbarTransition} ${style.z10} top-50 translate-middle-y`}>
-			<ul className="navbar-nav flex-column align-items-center px-3 py-5 gap-5 gap-xl-1 d-flex text-white px-5 px-lg-3">  
+		<div className={`position-fixed z10 d-flex flex-row position-absolute ${style.navbarTransition} ${style.z10} top-50 translate-middle-y`}>
+			<ul className={`${isSideBarHided ? '' : 'd-none'}  navbar-nav flex-column align-items-center px-3 py-5 gap-5 gap-xl-1 d-flex text-white px-5 px-lg-3`}>  
 				<li className="nav-item my-5 my-md-1">
 					<button className='nav-link' onClick={ () => srcollToElement('headline') } ><BiHomeAlt2 className="fs-2"/></button>
 				</li>
