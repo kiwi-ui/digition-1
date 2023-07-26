@@ -26,7 +26,7 @@ const Cover = ({hide, setHide}: any) => {
 
                     <button onClick={ hideCover } className={ `${style.bgButton} rounded-4 px-4 py-3 position-relative start-50 translate-middle-x text-white border-0 d-flex flex-row align-items-center justify-content-center gap-3`}>
                         <BsEnvelopeHeart className="fs-1"/>
-                        <span className="text-white text-decoration-none fw-bold fs-1">Buka Undangan</span>
+                        <span className="text-white text-decoration-none fs-1">Buka Undangan</span>
                     </button>
                 </div>
             </div>
