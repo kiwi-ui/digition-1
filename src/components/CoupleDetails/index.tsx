@@ -15,7 +15,7 @@ const CoupleDetails = () => {
                     
                     <div className="bride d-flex flex-column align-items-center">
                         <img src={ bride } className="rounded-3 shadow" width="100%" alt="bride"/>
-                        <div className="shadow position-relative rounded-3 py-4" style={{width: "90%", top: "-4.5rem", background: "rgb(255 238 212)"}}>
+                        <div className="shadow position-relative rounded-3 py-4 px-3" style={{width: "90%", top: "-4.5rem", background: "rgb(255 238 212)"}}>
                             <p className="fs-2 fw-bold mb-0">Humairoh</p>
                             <p className="fs-5 ">Putri dari Bapak Achmad dan Ibu Rum</p>
                             <button className="border-0 rounded-circle bg-transparent">
@@ -27,7 +27,7 @@ const CoupleDetails = () => {
                     </div>
                     <div className="groom d-flex flex-column align-items-center">
                         <img src={ groom } className="rounded-3 shadow" width="100%" alt="groom" />
-                        <div className="shadow position-relative rounded-3 py-4" style={{width: "90%", top: "-4.5rem", background: "rgb(255 238 212)"}}>
+                        <div className="shadow position-relative rounded-3 py-4 px-3" style={{width: "90%", top: "-4.5rem", background: "rgb(255 238 212)"}}>
                             <p className="fs-2 fw-bold mb-0">James Washington</p>
                             <p className="fs-5">Putri dari Bapak Achmad dan Ibu Rum</p>
                             <button className="border-0 rounded-circle bg-transparent">

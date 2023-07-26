@@ -1,10 +1,4 @@
 * {box-sizing: border-box;}
-.wCover{ width: 75%; }
-@media only screen and (min-width:786px){
-    .w-cover {
-        width: 70%;
-    }
-}
 .bgCover{ 
     background-image: url('../../assets/img/cover.jpg'); 
     background-position: center;
