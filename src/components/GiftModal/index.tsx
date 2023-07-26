@@ -13,17 +13,17 @@ const GiftModal = ({isModalShown, toggleModal}: any) => {
 
     return (
         <div className={ `${ isModalShown ? 'd-flex' : 'd-none' } vh-100 w-100 position-fixed top-0 justify-content-center align-items-center`} style={{zIndex: 10, background:"rgb(0,0,0,0.5)"}}>
-            <div className="w-75 top-50">
+            <div className="top-50">
                 <div className="rounded-5 container" style={{background:"#f1d6ab"}}>
                     <div className="d-flex justify-content-end">
                         <button className="bg-transparent border-0 fs-1" type="button" onClick={ toggleModal }><GrFormClose /></button>
                     </div>
 
-                    <div className="text-center p-4">
-                        <img src={ qr } className="w-100" alt="qr code" />  
+                    <div className="text-center pb-4 position-relative">
+                        <img src={ qr } className="position-relative h-50" alt="qr code" />  
                         <div className="my-2">
-                            <p className="fs-1 fw-bold m-0">Juliet Basori</p>
-                            <p className='fs-2'>091204789789 / Bank Mandiri</p>
+                            <p className="fs-3 fw-bold m-0">Anggara</p>
+                            <p className='fs-5'>091204789789 / Bank Mandiri</p>
                         </div>
                         <div className="d-flex justify-content-center gap-3">
                             <button className="fs-4 py-2 px-4 position-relative rounded-2 border-0 text-white fw-semibold" style={{ background: "#2b2b2b" }} onClick={copyId}>Copy</button>

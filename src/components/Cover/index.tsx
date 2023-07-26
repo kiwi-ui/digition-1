@@ -18,15 +18,15 @@ const Cover = ({hide, setHide}: any) => {
                     <p className='m-0 fs-5'>Undangan Pernikahan</p>
                     
                     <div className='d-flex flex-column gap-2'>
-                        <p className={`fs-1 fw-bold ${style.textColorPrimary} m-2`}>Yusni & Anggara</p>
+                        <p className={`fs-2 fw-bold ${style.textColorPrimary} m-2`}>Yusni & Anggara</p>
                         <p className="fs-5 m-0">Kepada yang terhormat</p>
                         <p className="fs-5 m-0">Bapak/Ibu/Saudara</p>
                         <p className={`fs-1 mt-2 fw-bold mb-4 ${style.textColorPrimary}`}>{ name }</p>
                     </div>
 
                     <button onClick={ hideCover } className={ `${style.bgButton} rounded-4 px-3 py-2 position-relative start-50 translate-middle-x text-white border-0 d-flex flex-row align-items-center justify-content-center gap-3`}>
-                        <BsEnvelopeHeart className="fs-3"/>
-                        <span className="text-white text-decoration-none">Buka Undangan</span>
+                        <BsEnvelopeHeart className="fs-5"/>
+                        <span className="text-white text-decoration-none fs-5">Buka Undangan</span>
                     </button>
                 </div>
             </div>
