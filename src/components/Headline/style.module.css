@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-};
+}
 .bgHeadline::before {
     content: "";
     position: absolute;
@@ -13,7 +13,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index:0;
-};
+}
 .text {
     color: #e3b04b !important;
-};
+}
