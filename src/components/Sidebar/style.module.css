@@ -1,7 +1,6 @@
 .navbarTransition {
     background-color: #E3B04B;
-    border-radius: 0rem 4rem 4rem 0rem ;
-    transition: 1.5s;
+    border-radius: 0rem 1rem 1rem 0rem ;
 }
 .bgTtoggle {background-color: #E3B04B;}
 .textColorPrimary{color: #E3B04B}

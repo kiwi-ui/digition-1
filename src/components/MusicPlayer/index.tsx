@@ -43,9 +43,9 @@ const MusicPlayer = () => {
     }, [isPlaying]);
 
     return (
-        <div className={ `position-fixed text-center text-white end-0 me-5 mt-5 top-0 ${ style.z10 }` } onClick={toggleSong}>
+        <div className={ `position-fixed text-center text-white end-0 me-3 mt-3 top-0 ${ style.z10 }` } onClick={toggleSong}>
             <button className="d-flex align-items-center justify-items-center m-0 my-3 mx-1 position-relative bg-transparent rounded-circle border-0" style={{ color: '#E3B04B' }}>
-                {!isPlaying ? <BsPauseCircleFill className="bg-transparent rounded-circle text-color-primary" style={{fontSize: '5rem'}}/> : <BsPlayCircleFill className="fbg-transparent rounded-circle text-color-primary" style={{fontSize: '5rem'}}/>}
+                {!isPlaying ? <BsPauseCircleFill className="bg-transparent rounded-circle text-color-primary fs-1"/> : <BsPlayCircleFill className="fbg-transparent rounded-circle text-color-primary fs-1"/>}
             </button>
         </div>
     );

@@ -31,3 +31,4 @@ body {
 .z10{ z-index: 10;}
 .txtColorPrimary { color: #F1D6AB;}
 .bgColorPrimary { background-color: #F1D6AB;}
+a {text-decoration: none;}
