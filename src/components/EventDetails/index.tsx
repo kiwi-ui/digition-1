@@ -94,7 +94,7 @@ const EventDetails = () => {
                             </div>
                             <div className="seconds text-center d-flex align-items-center flex-column p-3 rounded-2 shadow" style={{backgroundColor: "#2b2b2b", width: "20%"}}>
                                 <p className="fs-3 m-0">{event.seconds}</p>
-                                <p className= "m-0">Menit</p>
+                                <p className= "m-0">Detik</p>
                             </div>
                         </div>
                         :
