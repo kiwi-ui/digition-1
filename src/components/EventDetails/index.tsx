@@ -82,7 +82,7 @@ const EventDetails = () => {
                         <div className="d-flex flex-row mb-5 text-white border-box my-5 w-100 justify-content-evenly container">
                             <div className="days text-center d-flex align-items-center flex-column p-3 rounded-2 shadow" style={{backgroundColor: "#2b2b2b", width: "20%"}}>
                                 <p className="fs-3 m-0">{event.days}</p>
-                                <p className= "m-0">Hari</p>
+                                <p className= "npm run m-0">Hari</p>
                             </div>
                             <div className="hours text-center d-flex align-items-center flex-column p-3 rounded-2 shadow" style={{backgroundColor: "#2b2b2b", width: "20%"}}>
                                 <p className="fs-3 m-0">{event.hours}</p>
