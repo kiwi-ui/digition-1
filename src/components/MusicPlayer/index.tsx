@@ -4,7 +4,7 @@ import { BsPlayCircleFill, BsPauseCircleFill} from 'react-icons/bs';
 import style from './index.module.css';
 
 const MusicPlayer = () => {
-    const song = require('../../assets/music/takkanterganti.mp3');
+    const song = require('../../assets/music/fallforyou.mp3');
     const audioRef = useRef(new Audio(song));
     const [isPlaying, setIsPlaying] = useState(true);
 
