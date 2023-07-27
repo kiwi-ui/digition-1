@@ -14,7 +14,7 @@ const Cover = ({hide, setHide}: any) => {
         <section className={`${ style.bgCover } text-white d-flex justify-content-center flex-column align-items-center overflow-hidden`}>
             <div className={`rounded-5 position-relative z-10`}>
                 <div className={`${style.bgBlack50} text-center py-5 rounded-4`}>
-                    <img className='rounded-5 py-3 px-3' style={{height: '35%'}} src={ profileImage } alt="pengantin" />
+                    <img className='rounded-5 py-3 px-3' style={{height: '35vh'}} src={ profileImage } alt="pengantin" />
                     <p className='m-0 fs-5'>Undangan Pernikahan</p>
                     
                     <div className='d-flex flex-column gap-2'>
