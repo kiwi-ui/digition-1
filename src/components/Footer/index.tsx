@@ -6,8 +6,8 @@ const Footer = () => {
             <div className="container text-white d-flex flex-column text-center gap-3 py-5 h-100 position-relative">
                 <p className="fs-1 m-0 fw-bold color-primary">Terimakasih Atas Perhatiannya</p>
                 <p className="fs-2 m-0">Keluarga Besar</p>
-                <p className="m-0">Bapak Adam & Ibu Hawa</p>
-                <p className="m-0">Bapak Idim & Ibu Hiwi</p>
+                <p className="m-0">Bapak Achmad & Ibu Rum</p>
+                <p className="m-0">Bapak Achmad & Ibu Rum</p>
                 
                 <div className="border-box mt-3">
                     <p className="fw-bold">Made with Love</p>
