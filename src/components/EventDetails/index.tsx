@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import {BsCalendarHeart, BsClock, BsPinMap} from 'react-icons/bs';
 import {FiMapPin} from "react-icons/fi"
-import '../../index.css';
+import style from './style.module.css';
 
 interface eventInterface  {
     days: null | number,
@@ -38,21 +38,21 @@ const EventDetails = () => {
     }, [])
     
     return (
-        <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-5 z10` }>
-            <div className={`schedule border-box bgColorPrimary shadow-lg`}>
-                <div className={`coverSchedule d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '40vh'}}>
-                    <p className={`m-0 txtColorPrimary fw-semibold z10 fs-1`}>Waktu dan Tempat</p>
-                    <p className={`m-0 txtColorPrimary fw-semibold z10 fs-2`}>Pernikahan</p>
+        <section id="date" className={ `border-0 d-flex justify-content-center h-100 my-5` }>
+            <div className={`${style.schedule} border-box ${ style.bgColorPrimary } shadow-lg`}>
+                <div className={`${style.coverSchedule} d-flex align-items-bottom text-white justify-content-end align-items-center text-center flex-column position-relative`} style={{height: '40vh'}}>
+                    <p className={`m-0 ${style.txtColorPrimary} fw-semibold ${style.z10} fs-1`}>Waktu dan Tempat</p>
+                    <p className={`m-0 ${style.txtColorPrimary} fw-semibold  ${style.z10} fs-2`}>Pernikahan</p>
                     
-                    <div className={`mb-3 mt-2 z10 text-white`}>
+                    <div className={`mb-3 mt-2  ${style.z10} text-white`}>
                         <p className="m-0">30 Februari 2001</p>
                         <p className="m-0">Hall Unira Dome</p>
                         <p className="m-0">Jalan Dipenogoro, Pamekasan, Jawa Timur</p>
                     </div>
                 </div>
 
-                <div className={`bgColorPrimary d-flex align-items-center mt-5 flex-column`} style={{borderRadius: '0 0 1rem 1rem'}}>
-                    <div className="d-flex flex-column align-items-center container">
+                <div className={`${style.bgColorPrimary} d-flex align-items-center mt-5 flex-column`} style={{borderRadius: '0 0 1rem 1rem'}}>
+                    <div className="d-flex flex-column align-items-center container text-black">
                         <p className="fs-1 fw-semibold">Resepsi</p>
 
                         <div className="mx-4 mb-4" style={{borderTop :'0.3rem solid #2b2b2b'}}>
@@ -71,10 +71,10 @@ const EventDetails = () => {
                         </div>
 
                         <div className="d-flex justify-content-center">
-                            <button className="d-flex flex-row gap-3 align-items-center py-2 px-3 border-0 rounded-2" style={{backgroundColor: "#2b2b2b"}}>
+                            <a href="https://goo.gl/maps/mDBHHZsaYNr3mnXB6" type="button" target="_blank" rel="noreferrer" className="text-decoration-none d-flex flex-row gap-3 align-items-center py-2 px-3 border-0 rounded-2" style={{backgroundColor: "#2b2b2b"}}>
                                 <FiMapPin className='text-white' />
                                 <p className="m-0 text-white">Lihat Peta</p>
-                            </button>
+                            </a>
                         </div>
                     </div>
 

@@ -16,7 +16,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index:0;
 }
-.bgBlack50 {background-color: rgba(0, 0, 0, 0.5);}
+.cover {border-radius: 10rem 10rem 0 0}
 .textColorPrimary { color: rgb(227, 176, 75); }
 .bgColorPrimary { background-color: #F1D6AB;}
 .bgButton {background-color: #c3912d}

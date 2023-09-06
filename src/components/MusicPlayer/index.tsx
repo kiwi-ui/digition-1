@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 import { BsPlayCircleFill, BsPauseCircleFill} from 'react-icons/bs';
-
 import style from './index.module.css';
 
 const MusicPlayer = () => {

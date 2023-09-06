@@ -21,7 +21,7 @@ const Gallery = () => {
         <>
             <ModalImage toggle={ isPhotoClicked } setToggle={ setisPhotoClicked } clickedPhoto={ clickedPhoto }/>
             <section id="gallery" className={ `gallery ${style.bgColorPrimary} mt-4 position-relative` }>
-                <div className="container py-5">
+                <div className="container py-5 text-black">
                     <div className="text-center w-75 position-relative" style={{transform: "translateX(-50%)", right: "-50%"}}>
                         <p className="fw-bold m-0 fs-1">Gallery</p>
                         <p className="fs-3 pb-3 fs-3" style={{borderBottom :"0.3rem solid #2b2b2b"}}>Momen terbaik terekam abadi</p>

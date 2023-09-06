@@ -57,7 +57,7 @@ const Wish = () => {
         <section className="wish d-flex align-items-center border-box my-5">
             <div className={ `container ${style.bgColorPrimary} rounded-4 shadow-lg d-flex flex-column justify-content-center w-75` }>
                 <div id="wish" className=" py-5 container">
-                    <p className="fw-semibold m-0 text-center fs-1 mb-3 pb-2" style={{borderBottom :"0.3rem solid #2b2b2b"}}>Harapan</p>
+                    <p className="fw-bold text-black m-0 text-center fs-1 mb-3 pb-2" style={{borderBottom :"0.3rem solid #2b2b2b"}}>Harapan</p>
 
                     <form name="submit-to-google-sheet" id="form" className="form-wrapper row py-1" method="post">
                         <div className="col-md-6 col-12 my-md-3">
