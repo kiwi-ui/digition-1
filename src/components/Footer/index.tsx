@@ -12,7 +12,7 @@ const Footer = () => {
                     <p className="fw-bold m-0">Made with Love</p>
 
                     <div className="d-flex flex-row border-box justify-content-center align-content-center gap-1" style={{height: "20px"}}>
-                        <p className="fw-bold">Digition</p>
+                        <p className="fw-bold">Divition</p>
                     </div>
                 </div>
             </div>
